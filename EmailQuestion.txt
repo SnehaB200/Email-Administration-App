@@ -1,0 +1,9 @@
+SCENARIO:-
+	You are an IT support administrator specialist and are charged with the task of email accounts for new hires.
+
+RULE:-
+	1. Generate an Email with following syntax first name , last name , @department.company.com
+	2. Determine the department {Sale, Development, Accounting, (if none leave blank)}
+	3. Generate a random string for password 
+	4. Have a set method to change password, set mail box capacity & define an alternate email ID
+	3. Have get method to display the name, email & mailbox capacity
