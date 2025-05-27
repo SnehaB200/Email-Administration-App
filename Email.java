@@ -9,7 +9,6 @@ public class Email{
     private String department;
     private int mailBoxCapacity = 500;
     private String altEmail;
-    private int defaultPassword;
     private String companySuffix = "company.com";
 
     //constructor for first and last name
@@ -90,6 +89,6 @@ public class Email{
     }
     
     public String showInfo(){
-        return " Name:" + firstName + " "+ lastName +"\n Email: "+ email + "\n Mailbox Capacity:"+ mailBoxCapacity+"500mb "; 
+        return " Name:" + firstName + " "+ lastName +"\n Email: "+ email + "\n Mailbox Capacity:"+ mailBoxCapacity; 
     }
 }
